@@ -1,0 +1,29 @@
+body {
+    background-color: #f8f9fa;
+}
+
+#chat-box .user-message {
+    text-align: right;
+}
+
+#chat-box .bot-message {
+    text-align: left;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    display: inline-block;
+}
+
+.user-message .message {
+    background-color: #007bff;
+    color: white;
+}
+
+.bot-message .message {
+    background-color: #e9ecef;
+    color: black;
+}
